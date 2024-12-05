@@ -1,0 +1,109 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.heading {
+    display: flex;
+    position: absolute;
+    top: 1%;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0866ff;
+}
+
+.subheading {
+    display: flex;
+    position: absolute;
+    top: 12%;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.container{
+    width: 396px;
+    height: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    margin: 0;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    border: none;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container input{
+    width: 330px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    margin: 20px 0px 0px;
+    border: 1px solid #dddfe2;
+    box-shadow: 0px 0px 2px #e7f3ff;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container button{
+    width: 330px;
+    padding: 14px 16px;
+    background-color: #0866ff;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px 0px;
+}
+
+.container a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 20px;
+    color: #0866ff;
+}
+
+.container button:hover {
+    background-color: #0056cc;
+    cursor: pointer;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.newaccount button{
+    width: 330px;
+    padding: 14px 16px;
+    background-color: #42b72a;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 20px;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 13%;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
